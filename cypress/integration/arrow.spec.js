@@ -20,7 +20,7 @@ it('nada agora', function() { })
 
 // const soma = a => a + a;
 
-// const soma = () => 5 + 5
+const soma = () => 5 + 5
 
 console.log(soma(3,4))
 

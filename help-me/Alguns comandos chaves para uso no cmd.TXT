@@ -1,0 +1,28 @@
+1 - Instalar versão mais recente do cypress
+
+npm install cypress
+
+1.1 - pode especificar a versão com @
+	npm install cypress@3.6.0 
+
+2 - saber a versão do node 
+
+npm -v 
+
+3 - Criando as config do projeto
+	
+npm init -y
+	"-y" vai pular uma série de pergunta, o uso do -y vai deixar as config default
+
+4 - Para rodar o ambiente de test no windows
+	4.1 Vá para o arquivo chamado package.json
+		em scripts coloque
+		"cypres:open": "crypres open"
+
+	4.2 No cmd já no diretório do projeto coloque 
+		npm run cypress:open 
+	    e dessa forma vai abrir o ambiente de test
+		
+
+5 - Caso ocorra erro de 'mocha'
+	npm install mocha
